@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0014461A2410CF00324ADE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0014451A2410CF00324ADE /* Media.xcassets */; };
+		0D0014481A2413AD00324ADE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0014471A2413AD00324ADE /* Launch Screen.xib */; };
+		0D0785B41A2D3897005376ED /* ScriptBD.sql in Resources */ = {isa = PBXBuildFile; fileRef = 0D0785B31A2D3897005376ED /* ScriptBD.sql */; };
+		0D527BC21A2D34DD00B9C85C /* Zoo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0D527BC11A2D34DD00B9C85C /* Zoo.sqlite */; };
+		0D527BC41A2D350800B9C85C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D527BC31A2D350800B9C85C /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		0D89F7371A2CD3AE00D837B8 /* TablaEstadistica.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D89F7361A2CD3AE00D837B8 /* TablaEstadistica.m */; };
+		0DAD0BA91A23B09500C03A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD0BA81A23B09500C03A6F /* main.m */; };
+		0DAD0BAC1A23B09500C03A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD0BAB1A23B09500C03A6F /* AppDelegate.m */; };
+		0DAD0BAF1A23B09500C03A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD0BAE1A23B09500C03A6F /* ViewController.m */; };
+		0DAD0BB21A23B09500C03A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD0BB01A23B09500C03A6F /* Main.storyboard */; };
+		0DAD0BC31A23B09500C03A6F /* ZooQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD0BC21A23B09500C03A6F /* ZooQuizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DAD0BBD1A23B09500C03A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAD0B9B1A23B09500C03A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD0BA21A23B09500C03A6F;
+			remoteInfo = ZooQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0014451A2410CF00324ADE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		0D0014471A2413AD00324ADE /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Launch Screen.xib"; sourceTree = "<group>"; };
+		0D0785B31A2D3897005376ED /* ScriptBD.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScriptBD.sql; sourceTree = "<group>"; };
+		0D527BC11A2D34DD00B9C85C /* Zoo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zoo.sqlite; sourceTree = "<group>"; };
+		0D527BC31A2D350800B9C85C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0D89F7351A2CD3AE00D837B8 /* TablaEstadistica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaEstadistica.h; sourceTree = "<group>"; };
+		0D89F7361A2CD3AE00D837B8 /* TablaEstadistica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaEstadistica.m; sourceTree = "<group>"; };
+		0DAD0BA31A23B09500C03A6F /* ZooQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD0BA71A23B09500C03A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD0BA81A23B09500C03A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DAD0BAA1A23B09500C03A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DAD0BAB1A23B09500C03A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DAD0BAD1A23B09500C03A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DAD0BAE1A23B09500C03A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DAD0BB11A23B09500C03A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DAD0BBC1A23B09500C03A6F /* ZooQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD0BC11A23B09500C03A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD0BC21A23B09500C03A6F /* ZooQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooQuizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAD0BA01A23B09500C03A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D527BC41A2D350800B9C85C /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD0BB91A23B09500C03A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAD0B9A1A23B09500C03A6F = {
+			isa = PBXGroup;
+			children = (
+				0D0785B31A2D3897005376ED /* ScriptBD.sql */,
+				0D527BC31A2D350800B9C85C /* libsqlite3.dylib */,
+				0D527BC11A2D34DD00B9C85C /* Zoo.sqlite */,
+				0DAD0BA51A23B09500C03A6F /* ZooQuiz */,
+				0DAD0BBF1A23B09500C03A6F /* ZooQuizTests */,
+				0DAD0BA41A23B09500C03A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAD0BA41A23B09500C03A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD0BA31A23B09500C03A6F /* ZooQuiz.app */,
+				0DAD0BBC1A23B09500C03A6F /* ZooQuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAD0BA51A23B09500C03A6F /* ZooQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				0D0014471A2413AD00324ADE /* Launch Screen.xib */,
+				0D0014451A2410CF00324ADE /* Media.xcassets */,
+				0DAD0BAA1A23B09500C03A6F /* AppDelegate.h */,
+				0DAD0BAB1A23B09500C03A6F /* AppDelegate.m */,
+				0DAD0BAD1A23B09500C03A6F /* ViewController.h */,
+				0DAD0BAE1A23B09500C03A6F /* ViewController.m */,
+				0DAD0BB01A23B09500C03A6F /* Main.storyboard */,
+				0DAD0BA61A23B09500C03A6F /* Supporting Files */,
+				0D89F7351A2CD3AE00D837B8 /* TablaEstadistica.h */,
+				0D89F7361A2CD3AE00D837B8 /* TablaEstadistica.m */,
+			);
+			path = ZooQuiz;
+			sourceTree = "<group>";
+		};
+		0DAD0BA61A23B09500C03A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD0BA71A23B09500C03A6F /* Info.plist */,
+				0DAD0BA81A23B09500C03A6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DAD0BBF1A23B09500C03A6F /* ZooQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD0BC21A23B09500C03A6F /* ZooQuizTests.m */,
+				0DAD0BC01A23B09500C03A6F /* Supporting Files */,
+			);
+			path = ZooQuizTests;
+			sourceTree = "<group>";
+		};
+		0DAD0BC01A23B09500C03A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD0BC11A23B09500C03A6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAD0BA21A23B09500C03A6F /* ZooQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD0BC61A23B09500C03A6F /* Build configuration list for PBXNativeTarget "ZooQuiz" */;
+			buildPhases = (
+				0DAD0B9F1A23B09500C03A6F /* Sources */,
+				0DAD0BA01A23B09500C03A6F /* Frameworks */,
+				0DAD0BA11A23B09500C03A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooQuiz;
+			productName = ZooQuiz;
+			productReference = 0DAD0BA31A23B09500C03A6F /* ZooQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DAD0BBB1A23B09500C03A6F /* ZooQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD0BC91A23B09500C03A6F /* Build configuration list for PBXNativeTarget "ZooQuizTests" */;
+			buildPhases = (
+				0DAD0BB81A23B09500C03A6F /* Sources */,
+				0DAD0BB91A23B09500C03A6F /* Frameworks */,
+				0DAD0BBA1A23B09500C03A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAD0BBE1A23B09500C03A6F /* PBXTargetDependency */,
+			);
+			name = ZooQuizTests;
+			productName = ZooQuizTests;
+			productReference = 0DAD0BBC1A23B09500C03A6F /* ZooQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAD0B9B1A23B09500C03A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Universidad de Almería";
+				TargetAttributes = {
+					0DAD0BA21A23B09500C03A6F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0DAD0BBB1A23B09500C03A6F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0DAD0BA21A23B09500C03A6F;
+					};
+				};
+			};
+			buildConfigurationList = 0DAD0B9E1A23B09500C03A6F /* Build configuration list for PBXProject "ZooQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DAD0B9A1A23B09500C03A6F;
+			productRefGroup = 0DAD0BA41A23B09500C03A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAD0BA21A23B09500C03A6F /* ZooQuiz */,
+				0DAD0BBB1A23B09500C03A6F /* ZooQuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAD0BA11A23B09500C03A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0014461A2410CF00324ADE /* Media.xcassets in Resources */,
+				0DAD0BB21A23B09500C03A6F /* Main.storyboard in Resources */,
+				0D527BC21A2D34DD00B9C85C /* Zoo.sqlite in Resources */,
+				0D0785B41A2D3897005376ED /* ScriptBD.sql in Resources */,
+				0D0014481A2413AD00324ADE /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD0BBA1A23B09500C03A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAD0B9F1A23B09500C03A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD0BAF1A23B09500C03A6F /* ViewController.m in Sources */,
+				0DAD0BAC1A23B09500C03A6F /* AppDelegate.m in Sources */,
+				0DAD0BA91A23B09500C03A6F /* main.m in Sources */,
+				0D89F7371A2CD3AE00D837B8 /* TablaEstadistica.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD0BB81A23B09500C03A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD0BC31A23B09500C03A6F /* ZooQuizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DAD0BBE1A23B09500C03A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAD0BA21A23B09500C03A6F /* ZooQuiz */;
+			targetProxy = 0DAD0BBD1A23B09500C03A6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DAD0BB01A23B09500C03A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAD0BB11A23B09500C03A6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DAD0BC41A23B09500C03A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DAD0BC51A23B09500C03A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAD0BC71A23B09500C03A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ZooQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0DAD0BC81A23B09500C03A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ZooQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0DAD0BCA1A23B09500C03A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZooQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooQuiz.app/ZooQuiz";
+			};
+			name = Debug;
+		};
+		0DAD0BCB1A23B09500C03A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZooQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooQuiz.app/ZooQuiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAD0B9E1A23B09500C03A6F /* Build configuration list for PBXProject "ZooQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD0BC41A23B09500C03A6F /* Debug */,
+				0DAD0BC51A23B09500C03A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD0BC61A23B09500C03A6F /* Build configuration list for PBXNativeTarget "ZooQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD0BC71A23B09500C03A6F /* Debug */,
+				0DAD0BC81A23B09500C03A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD0BC91A23B09500C03A6F /* Build configuration list for PBXNativeTarget "ZooQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD0BCA1A23B09500C03A6F /* Debug */,
+				0DAD0BCB1A23B09500C03A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAD0B9B1A23B09500C03A6F /* Project object */;
+}

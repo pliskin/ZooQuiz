@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A2562AF-AAEC-41A7-A6FC-362B2D91C399</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZooQuiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC9FE87AA52AD93573532032826AEE2332FF9B18</key>
+		<string>https://bitbucket.org/zooquiz/zooquiz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZooQuiz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC9FE87AA52AD93573532032826AEE2332FF9B18</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/zooquiz/zooquiz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC9FE87AA52AD93573532032826AEE2332FF9B18</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC9FE87AA52AD93573532032826AEE2332FF9B18</string>
+			<key>IDESourceControlWCCName</key>
+			<string>zooquiz</string>
+		</dict>
+	</array>
+</dict>
+</plist>
